@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel='stylesheet' href="css/fontawesome/css/all.css">
+    <link rel='stylesheet' href="css/custom.css">
+  </head>
+  <body>
+    <head>
+      <div class="container bd_container ">
+        <div class="accord_head">
+          <h6>Book Of Business</h6>
+
+        </div>
+
+      </div>
+    </head>
+    <main>
+      <div class="mainContainer p-3">
+         <h6> Search </h6>
+         <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item accorItem">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Contract
+              </button>
+              <div id="book-list"></div>
+            </h2>
+            <!-- <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div> -->
+          </div>
+          <div class="accordion-item accorItem">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+               Owner
+              </button>
+            </h2>
+            <!-- <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div> -->
+          </div>
+          <div class="accordion-item accorItem ">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+               Annuitant
+              </button>
+            </h2>
+            <!-- <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div> -->
+          </div>
+          <div class="accordion-item accorItem">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Producer
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse show" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body form-validate p-1">
+               <form action="" method="post" id="bookSearch">
+                <div class="row md-row">
+                  
+
+                
+                  <div class="col-md-6 md-col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                      <input type="text" name="firstName" class="form-control" id="firstname" placeholder="First Name">
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6  md-col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                      <input type="text" name="lastName" class="form-control" id="lastname" placeholder="Last Name">
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6  md-col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Producer Code</label>
+                      <input type="text" name="producercode" class="form-control" id="producercode" placeholder="Producer Code">
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6  md-col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Organisation Name</label>
+                      <input type="text" name="OrganisationName" class="form-control" id="organistaion" placeholder="Organisation Name">
+                    </div>
+                    
+                  </div>
+                  <div class="row m-0 p-0">
+                    <div class="col-md-12 btn-text-right  p-3">
+                      <button type="submit"  id="add-btn" class="btn btn-secondary btn-sm  btnColor d-block mr-0 ml-auto"> <i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                    </div>
+                  </div>
+                
+                </form>
+                </div>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        </div>
+       
+  
+    </main>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+  </body>
+</html>
